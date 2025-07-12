@@ -80,3 +80,10 @@ Serial.println(average);
 __คำถาม__
 
 - ในการเขียนโปรแกรม ต้องทำ Type Casting ในสถานการณ์ใดบ้าง
+  
+ตอบ
+- เมื่อต้องการผลลัพธ์แบบทศนิยมจากการหาร โค้ด float avg = (float)sum / count;
+- เมื่อต้องเปลี่ยนชนิดข้อมูลไปใช้กับคำสั่งหรือฟังก์ชันที่รับชนิดเฉพาะ โค้ด char ch = (char)65;
+- เมื่อแปลงค่าเพื่อป้องกัน overflow หรือ underflow โค้ด long result = (long)largeValue * multiplier;
+- เมื่อต้องเปรียบเทียบหรือคำนวณค่าที่ชนิดต่างกัน โค้ด float result = (float)intValue + floatValue;
+- เมื่อต้องแสดงค่าแบบอื่น เช่น เปลี่ยน float เป็น int โค้ด int temp = (int)25.79;  // ตัดทศนิยม
