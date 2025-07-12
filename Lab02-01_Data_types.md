@@ -209,6 +209,8 @@ __คำถาม__
 
 5.1 true และ false ถูกแสดงผลเป็นค่าใดบน Serial Monitor?
 
+ตอบ true ผลลัพธ์: 1  false ผลลัพธ์: 0
+
 ### 6. ทดลองกับ long, long long, unsigned int, unsigned long, unsigned long long (จำนวนเต็มขนาดใหญ่/ไม่มีเครื่องหมาย)
 
 __วัตถุประสงค์__
